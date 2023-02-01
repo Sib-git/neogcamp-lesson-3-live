@@ -1,18 +1,25 @@
-body { /* This is called selecter */
+/* body { /* This is called selecter
     color:red;
-}
+} */
 
-h1 { /* This is called selecter */
-    color: blue;
-}
+/* h1 { /* This is called selecter */
+    /* color: blue; */
+/* } */
 
-h2 {
+/* h2 {
     color: green;
-}
+} */
 
- #lib-header {
+ /* #lib-header {
     color: gray;
- }
-.para {
+ } */
+/* .para {
 color: pink;
+} */ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
