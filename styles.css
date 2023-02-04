@@ -81,6 +81,7 @@ list-style: none;
 .hero .hero-heading {
     color: var(--dark-gray) ;
     padding-top: 1rem;
+    text-align: center;
     
 }
 .hero .hero-heading .heading-inverted {
@@ -110,4 +111,8 @@ text-align: center;
 }
 .footer .link {
     color: white;
+}
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
