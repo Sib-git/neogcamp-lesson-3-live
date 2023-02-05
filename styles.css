@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px auto;
+    width: 100%;
 }
 
 :root {
@@ -45,6 +47,7 @@ max-width: 600px;
 /* lists */
 .list-non-bullet {
 list-style: none;
+padding: 0px;
 }
 .list-item-inline {
     display: inline;
@@ -111,6 +114,9 @@ text-align: center;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
 }
 .footer .link {
     color: white;
