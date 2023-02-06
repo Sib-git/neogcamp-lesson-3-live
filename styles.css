@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px auto;
+    margin: 0px;
     width: 100%;
 }
 
@@ -13,10 +13,16 @@ body {
 
 }
 
+/* spaces  */
+.margin-md {
+    margin: 2rem;
+}
+
 /** container  */
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0rem 1rem;
 }
 
 .center-container {
@@ -27,27 +33,34 @@ max-width: 600px;
 /* links */
 .link {
    text-decoration: none;
-   padding: 0.5rem 1rem; 
-   margin-top: 1rem;
-   margin-bottom: 1rem;
+   padding: 0.5rem 1rem;
+   box-sizing: border-box; 
+   /* margin-top: 1rem;
+   margin-bottom: 1rem; */
 }
 .link-primary {
     background-color:var(--primary-color);
     border-radius: 0.5rem;
     color:white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 
 }
 
 /* lists */
 .list-non-bullet {
 list-style: none;
-padding: 0px;
+padding-inline-start: 0px;
 }
 .list-item-inline {
     display: inline;
@@ -78,6 +91,7 @@ padding: 0px;
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 .hero-img {
     max-width: 350px;
@@ -110,13 +124,13 @@ text-align: center;
 /* footers  */
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
     /* position: absolute; */
     /* bottom: 0; */
-    width: 100%;
+    /* width: 100%; */
 }
 .footer .link {
     color: white;
@@ -124,4 +138,16 @@ text-align: center;
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
+}
+.footer ul {
+    padding-inline-start: 0px;
+}
+/* projects */
+.showcase-list {
+padding: 2rem;
+}
+
+/* blogs */
+.showcase-blog {
+    padding-bottom: 6rem;
 }
